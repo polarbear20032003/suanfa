@@ -5,7 +5,7 @@ clear;
 UDATE = text(:,1); %时间列，包含第一行的表头
 n = length(UDATE);
 
-dt=zeros(n-2,1);
+dt=zeros(n-2,1);%赋值零矩阵
 
 for i=2:n-1    %用dt矩阵存储时间序列的前后两个时间的秒级差距
 
